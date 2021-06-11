@@ -241,9 +241,9 @@ static const void *kkeyBoardHeightKey = @"kkeyBoardHeightKey";
             [self setContentOffset:CGPointMake(0, [self lastOffsetY].floatValue) animated:NO];
 //          SEL sel = NSSelectorFromString(@"setTempSetOffsetDisable:");
 //          if ([self respondsToSelector:sel]) {
-          if ([self isKindOfClass:NSClassFromString(@"ZYBaseTableView")]) {
-            [self setValue:@(YES) forKey:@"tempSetOffsetDisable"];
-          }
+//          if ([self isKindOfClass:NSClassFromString(@"ZYBaseTableView")]) {
+//            [self setValue:@(YES) forKey:@"tempSetOffsetDisable"];
+//          }
         }
         return;
     }
@@ -258,9 +258,9 @@ static const void *kkeyBoardHeightKey = @"kkeyBoardHeightKey";
         [self setContentOffset:CGPointMake(0, destOffY) animated:NO];
 //      SEL sel = NSSelectorFromString(@"setTempSetOffsetDisable:");
 //      if ([self respondsToSelector:sel]) {
-      if ([self isKindOfClass:NSClassFromString(@"ZYBaseTableView")]) {
-        [self setValue:@(YES) forKey:@"tempSetOffsetDisable"];
-      }
+//      if ([self isKindOfClass:NSClassFromString(@"ZYBaseTableView")]) {
+//        [self setValue:@(YES) forKey:@"tempSetOffsetDisable"];
+//      }
     }
 }
 
