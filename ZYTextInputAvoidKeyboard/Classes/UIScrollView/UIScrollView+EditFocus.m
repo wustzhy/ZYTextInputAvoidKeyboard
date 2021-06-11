@@ -239,8 +239,9 @@ static const void *kkeyBoardHeightKey = @"kkeyBoardHeightKey";
         if (isTextChange == NO) {
             //若不调用词句，查看堆栈会自动调用[UIScrollViewScrollAnimation setProgress:],导致切换输入框时会调setContentOffset:,使
             [self setContentOffset:CGPointMake(0, [self lastOffsetY].floatValue) animated:NO];
-          SEL sel = NSSelectorFromString(@"setTempSetOffsetDisable:");
-          if ([self respondsToSelector:sel]) {
+//          SEL sel = NSSelectorFromString(@"setTempSetOffsetDisable:");
+//          if ([self respondsToSelector:sel]) {
+          if ([self isKindOfClass:NSClassFromString(@"ZYBaseTableView")]) {
             [self setValue:@(YES) forKey:@"tempSetOffsetDisable"];
           }
         }
@@ -255,8 +256,9 @@ static const void *kkeyBoardHeightKey = @"kkeyBoardHeightKey";
     if (adjustContentOffsetY > minOffsetY) {
         CGFloat destOffY = [self lastOffsetY].floatValue + adjustContentOffsetY;
         [self setContentOffset:CGPointMake(0, destOffY) animated:NO];
-      SEL sel = NSSelectorFromString(@"setTempSetOffsetDisable:");
-      if ([self respondsToSelector:sel]) {
+//      SEL sel = NSSelectorFromString(@"setTempSetOffsetDisable:");
+//      if ([self respondsToSelector:sel]) {
+      if ([self isKindOfClass:NSClassFromString(@"ZYBaseTableView")]) {
         [self setValue:@(YES) forKey:@"tempSetOffsetDisable"];
       }
     }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E990024885CA7A9F9B99C651DB247225 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DCCCF39D037E3B2CC15C0F4042B4C1F /* UITextView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 8317B7B338682290A79C67561B61D3C1 /* UITextView+Block.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4D664B6BF5EB566BA739B601EEF86B /* UIApplication+StrictKeyWindow.m */; };
 		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4812CB9F540D8B95CC89C595D400162E /* XCTest.framework */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = F9086D098370C3218819FFFD8121103A /* UIImage+Diff.m */; };
@@ -16,77 +17,78 @@
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = C134C5FE5330ADFCE7519D91CC78A84C /* UIImage+Compare.m */; };
 		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92737CAAA6D6C855688476495BB0E7F /* QuartzCore.framework */; };
 		2FBBC892E192AC5EB931E6549988D6F2 /* Pods-ZYTextInputAvoidKeyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72026C020A8548C6C771A25C64191715 /* Pods-ZYTextInputAvoidKeyboard_Tests-dummy.m */; };
-		399831F6CF70C3CFEC9BFA8FF35AE39C /* ZYTextInputAvoidKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF662CAF19FD18835B0CD5575B63A59 /* ZYTextInputAvoidKeyboard-dummy.m */; };
+		3010E382982ED5C8DB2710F0C1502AA7 /* KVOController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD20D9B8C72EED78550A869603977F42 /* KVOController.framework */; };
+		33CAF664765B6B0C75348F85232C2BAB /* UIScrollView+EditFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FF335E553C6FAD7D6C36668E0E9D78 /* UIScrollView+EditFocus.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E308E2DE670D8D95CDAE27D7F9758E2 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52B2770AFABF557FCDC16E9A273C2768 /* ZYBaseTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = D083587139C04B22A4AB17D207D6E6E3 /* ZYBaseTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59A8134158120B4B15205E1C98C0F300 /* Pods-ZYTextInputAvoidKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D0AA2C46DFE14B7ED35667D736B85 /* Pods-ZYTextInputAvoidKeyboard_Example-dummy.m */; };
-		5F31AB4F2EBF7FC1D4AFCC8D90E78FAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC87E62F832AAD5F57A8C05707FCD065 /* Foundation.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD7F4702AEBA9AB8A22C08EB53711B /* FBSnapshotTestCase-dummy.m */; };
 		75A2B460366AE806A610C9B90C64B797 /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5FC9D826D9CEB6C91FBE2E146F6855 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EFD4CF94A910A89300FC0A5978E0991 /* KVOController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD20D9B8C72EED78550A869603977F42 /* KVOController.framework */; };
+		7D20BB139E22216BAD6BB2C50FCC2807 /* ZYBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3392EE3A586195AF5FD07D9DD4D099 /* ZYBaseTableView.m */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52903496837F6EF46C42AFDC6FCF65F0 /* FBSnapshotTestController.m */; };
 		889E2157616BF0844E55BCDC2C30A278 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53F6AB56EEBD8F8C012F0052B0103CA /* NSObject+FBKVOController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C9842D5CD2DD9DC183FCCCAD7AB3A56C /* FBSnapshotTestCase.m */; };
 		8EE50CA49BDB3CC47A65D143D798AA72 /* KVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5124999F9150004D98B200B80D67D7 /* KVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FF3D486260A0B91E7484B7F3A8A1654 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC87E62F832AAD5F57A8C05707FCD065 /* Foundation.framework */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E7E195862100388650769740ECA168 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9141FA1041F2CE719CA7A45CEADCC5B4 /* UIScrollView+EditFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E804CC5827E612D84B7B77F462451D5 /* UIScrollView+EditFocus.m */; };
 		9670C11FE884391249C5154C3E319CDF /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F6A0E1FB2874754B4B13EB353D1FDC /* FBKVOController.m */; };
 		96FE889CBFA55C4D7C6D77404BE7F6C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC87E62F832AAD5F57A8C05707FCD065 /* Foundation.framework */; };
-		9CA50AACA67B5F6CFD568AD7CFBCFF73 /* UITextView+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 31A6D7565812611FC403D03C97B1B2A5 /* UITextView+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73D79075C1E123390A5382E2D045FAF /* SwiftSupport.swift */; };
+		A0DF9EC08EFBBDE13F75D803D894B9FF /* ZYTextInputAvoidKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9642A0C8DFA1AE030B98DE122ACCC796 /* ZYTextInputAvoidKeyboard-dummy.m */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E44C53E0D349DBC38CF9372760E989 /* UIImage+Snapshot.m */; };
 		AB8C349C46978DF528A142C1C0959039 /* KVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0F84D0E60590F1EC346AD974AFBECD /* KVOController-dummy.m */; };
-		AD22A739D8449E7468F194208B0CBF5F /* UIScrollView+EditFocus.h in Headers */ = {isa = PBXBuildFile; fileRef = 303537696402670253279A3899C386E1 /* UIScrollView+EditFocus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF065FC0630C0E534F2775220B81BE54 /* Pods-ZYTextInputAvoidKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C81DD763EB99FC540EDE9DA8D64ABA /* Pods-ZYTextInputAvoidKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF173C0A44C9064939379EB16CBC65D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC87E62F832AAD5F57A8C05707FCD065 /* Foundation.framework */; };
-		B2017F6ED1B3F5FDFF67649BE0CB49EA /* ZYTextInputAvoidKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC251B2B2A168E12E82C1605837C775 /* ZYTextInputAvoidKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = C008CEC03F920E055DD28C076ED3CF34 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA3A6DB874975FD2D67881E0AC699E7 /* UIKit.framework */; };
 		BDA7D88EDF2750C80CD0F71FC10B30BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC87E62F832AAD5F57A8C05707FCD065 /* Foundation.framework */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A8968CF86D8B7339A909F51CBA5D715 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC87E62F832AAD5F57A8C05707FCD065 /* Foundation.framework */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4FC23DFC8B0489F07E5726FD7D409B /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DCD868B05EC0B6DD603E1E22ECDCA374 /* UITextView+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 45FF3196086266C4AE1A83D1DFA8548B /* UITextView+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4F1FA0D60D3211535731BC1F04CC2ED /* ZYTextInputAvoidKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3EE7ED4A7387ED62ED0002D7BF6DA5 /* ZYTextInputAvoidKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D0C99AE3C0D351B143BA255F905154 /* FBSnapshotTestCasePlatform.m */; };
+		EA7C49AD041F5FDF2279083EE3EE9110 /* UIScrollView+EditFocus.h in Headers */ = {isa = PBXBuildFile; fileRef = EF74D1DEA5668A4A5C38106B8C8141E6 /* UIScrollView+EditFocus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A809A32C40E806A1D740EC36C8BF040 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F22E5310E5467393C4F49D0A66343DCB /* Pods-ZYTextInputAvoidKeyboard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EB9D35C1405659EDD8DE5CBA2FC36C /* Pods-ZYTextInputAvoidKeyboard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F676A745198A3ECCA7FD728F1A12E083 /* UITextView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A02A6397D9DAD78A67EF6227B37EC9 /* UITextView+Block.m */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA72859BDE727B7D8A2026D9B2FBF6DB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		07E8092F0CB39A9BD72F4468009F9F16 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2568F753F09C4DFFD8770DCC78EDAEAE;
-			remoteInfo = KVOController;
-		};
-		2A157EECBFCDBEBFB7EC594762BDF418 /* PBXContainerItemProxy */ = {
+		1BFF03CA70FBF150198BB478B98FE46C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		59D7C0F952F9C7E7AFAFBEFB8E5BDF5D /* PBXContainerItemProxy */ = {
+		42E215C26FEA6B00DCD021936E83DF50 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9BEF73421FFE1B98E8F4F3A117261582;
-			remoteInfo = "Pods-ZYTextInputAvoidKeyboard_Example";
+			remoteGlobalIDString = 2568F753F09C4DFFD8770DCC78EDAEAE;
+			remoteInfo = KVOController;
 		};
-		80A77526170F6EAB4F063214AD65D5A1 /* PBXContainerItemProxy */ = {
+		9E1EA950C1861E46E7E808680767606B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2568F753F09C4DFFD8770DCC78EDAEAE;
+			remoteInfo = KVOController;
+		};
+		D95E97464E3C0DA6D777DA47F68C84C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D78DCF0630D0FE58941ED13816904845;
 			remoteInfo = ZYTextInputAvoidKeyboard;
 		};
-		B4E260BF6869E56FE72C33B09C4327D6 /* PBXContainerItemProxy */ = {
+		DC99B4D22DB4FA034A486B9C77673C54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2568F753F09C4DFFD8770DCC78EDAEAE;
-			remoteInfo = KVOController;
+			remoteGlobalIDString = 9BEF73421FFE1B98E8F4F3A117261582;
+			remoteInfo = "Pods-ZYTextInputAvoidKeyboard_Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -101,47 +103,44 @@
 		22B0AE936C74B46D0786D7294C9FF401 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		29EB9D35C1405659EDD8DE5CBA2FC36C /* Pods-ZYTextInputAvoidKeyboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYTextInputAvoidKeyboard_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2A96313E02AC379CE73C3408CCEA5C49 /* KVOController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.debug.xcconfig; sourceTree = "<group>"; };
-		2E804CC5827E612D84B7B77F462451D5 /* UIScrollView+EditFocus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EditFocus.m"; sourceTree = "<group>"; };
-		303537696402670253279A3899C386E1 /* UIScrollView+EditFocus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EditFocus.h"; sourceTree = "<group>"; };
-		31A6D7565812611FC403D03C97B1B2A5 /* UITextView+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Block.h"; sourceTree = "<group>"; };
-		32B32C5EEAE4F0E8DF097CD27515391D /* ZYTextInputAvoidKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYTextInputAvoidKeyboard.modulemap; sourceTree = "<group>"; };
 		35925D26052D9A8B446D69BEFB94B9F5 /* KVOController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KVOController.modulemap; sourceTree = "<group>"; };
+		36FD9405E3AEBB56C69E0C77356C6BF7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		399EC9508E73C0D54D9BBD8741FBA137 /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVOController.framework; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA3A6DB874975FD2D67881E0AC699E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3DC30952493C49C2A183102CE9C1B16E /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		40C4C1BCC357233AD3745A3096E24530 /* Pods-ZYTextInputAvoidKeyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYTextInputAvoidKeyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		45FF3196086266C4AE1A83D1DFA8548B /* UITextView+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Block.h"; sourceTree = "<group>"; };
 		4812CB9F540D8B95CC89C595D400162E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4D5124999F9150004D98B200B80D67D7 /* KVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVOController.h; path = FBKVOController/KVOController.h; sourceTree = "<group>"; };
 		52903496837F6EF46C42AFDC6FCF65F0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		53F05638CA0159FD5E46D9A87245AF09 /* Pods-ZYTextInputAvoidKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYTextInputAvoidKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		56AA5FF9377D6754C2F945928448C5EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		56FCCB0015A816D8E3B8EF0C17D21C6D /* ZYTextInputAvoidKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYTextInputAvoidKeyboard.release.xcconfig; sourceTree = "<group>"; };
 		5A13D67198AA41AF58C39073F4E16000 /* KVOController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-umbrella.h"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4D664B6BF5EB566BA739B601EEF86B /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		617B045A74BBD624287930A4E0DBCC24 /* ZYTextInputAvoidKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZYTextInputAvoidKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		72026C020A8548C6C771A25C64191715 /* Pods-ZYTextInputAvoidKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYTextInputAvoidKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
 		72D0C99AE3C0D351B143BA255F905154 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		75A1F5F8639C3B09C9AFA76E6FDA8178 /* ZYTextInputAvoidKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYTextInputAvoidKeyboard-prefix.pch"; sourceTree = "<group>"; };
 		79042F4E96328225F17E69E84952C1AE /* Pods-ZYTextInputAvoidKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYTextInputAvoidKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7A4FC23DFC8B0489F07E5726FD7D409B /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		7A8968CF86D8B7339A909F51CBA5D715 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		7F899ACA7D3AEBB0E7E02FCDBD536663 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		81C81DD763EB99FC540EDE9DA8D64ABA /* Pods-ZYTextInputAvoidKeyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYTextInputAvoidKeyboard_Example-umbrella.h"; sourceTree = "<group>"; };
+		8317B7B338682290A79C67561B61D3C1 /* UITextView+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Block.m"; sourceTree = "<group>"; };
 		86C391FD4F38F468AA13AF0D5658F2B4 /* Pods-ZYTextInputAvoidKeyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYTextInputAvoidKeyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8DC251B2B2A168E12E82C1605837C775 /* ZYTextInputAvoidKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYTextInputAvoidKeyboard-umbrella.h"; sourceTree = "<group>"; };
 		8E23DF9B55D8471AA40E4B5C83F801C8 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		93B9186188F180212F80CEAD643B057D /* Pods_ZYTextInputAvoidKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYTextInputAvoidKeyboard_Example.framework; path = "Pods-ZYTextInputAvoidKeyboard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9642A0C8DFA1AE030B98DE122ACCC796 /* ZYTextInputAvoidKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYTextInputAvoidKeyboard-dummy.m"; sourceTree = "<group>"; };
 		9A809A32C40E806A1D740EC36C8BF040 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		9BF8F4D9FC72BC061901BC7DF8D5C8B3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		9C9E15066F5647D082BC2D31FB5B59F3 /* Pods-ZYTextInputAvoidKeyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYTextInputAvoidKeyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D3392EE3A586195AF5FD07D9DD4D099 /* ZYBaseTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYBaseTableView.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DF662CAF19FD18835B0CD5575B63A59 /* ZYTextInputAvoidKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYTextInputAvoidKeyboard-dummy.m"; sourceTree = "<group>"; };
 		A58D0AA2C46DFE14B7ED35667D736B85 /* Pods-ZYTextInputAvoidKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYTextInputAvoidKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
 		A73D79075C1E123390A5382E2D045FAF /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		AA8EC85158648B7AF3CB2CE2F3D0B746 /* Pods-ZYTextInputAvoidKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYTextInputAvoidKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD5FC9D826D9CEB6C91FBE2E146F6855 /* FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
 		B1A181AAFC174E388D1C2AA75EEC77CC /* Pods-ZYTextInputAvoidKeyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYTextInputAvoidKeyboard_Tests.modulemap"; sourceTree = "<group>"; };
 		B6F6A0E1FB2874754B4B13EB353D1FDC /* FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
-		B8CB5745739B6C68E1CB867125428DD3 /* ZYTextInputAvoidKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYTextInputAvoidKeyboard.release.xcconfig; sourceTree = "<group>"; };
 		B92737CAAA6D6C855688476495BB0E7F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		BA72859BDE727B7D8A2026D9B2FBF6DB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		C008CEC03F920E055DD28C076ED3CF34 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
@@ -149,17 +148,22 @@
 		C9842D5CD2DD9DC183FCCCAD7AB3A56C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		C9B2FFB9C5B89677BEADF404FFACF530 /* Pods-ZYTextInputAvoidKeyboard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYTextInputAvoidKeyboard_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CA25355203CBB53F26933E493B05D187 /* KVOController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.release.xcconfig; sourceTree = "<group>"; };
+		CB3EE7ED4A7387ED62ED0002D7BF6DA5 /* ZYTextInputAvoidKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYTextInputAvoidKeyboard-umbrella.h"; sourceTree = "<group>"; };
 		CCFB8AC4EC0288D4867B55ED6BF2C7A9 /* KVOController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-prefix.pch"; sourceTree = "<group>"; };
+		D083587139C04B22A4AB17D207D6E6E3 /* ZYBaseTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYBaseTableView.h; sourceTree = "<group>"; };
+		D2BD391FA914F7D86BBF5377E39B79D5 /* ZYTextInputAvoidKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYTextInputAvoidKeyboard.debug.xcconfig; sourceTree = "<group>"; };
 		D5E7E195862100388650769740ECA168 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		D8A02A6397D9DAD78A67EF6227B37EC9 /* UITextView+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Block.m"; sourceTree = "<group>"; };
 		D8E44C53E0D349DBC38CF9372760E989 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		E3685A57230D11571BB1B57E7FF64A5F /* ZYTextInputAvoidKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYTextInputAvoidKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		E4FF335E553C6FAD7D6C36668E0E9D78 /* UIScrollView+EditFocus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EditFocus.m"; sourceTree = "<group>"; };
 		E53F6AB56EEBD8F8C012F0052B0103CA /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FBKVOController.m"; path = "FBKVOController/NSObject+FBKVOController.m"; sourceTree = "<group>"; };
-		E889167087A591FD5652B39236BFF153 /* ZYTextInputAvoidKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZYTextInputAvoidKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E990024885CA7A9F9B99C651DB247225 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		EC2B8B2DDF29801384D0A08595EF5B94 /* ZYTextInputAvoidKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYTextInputAvoidKeyboard.debug.xcconfig; sourceTree = "<group>"; };
 		EC87E62F832AAD5F57A8C05707FCD065 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EF0F84D0E60590F1EC346AD974AFBECD /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
+		EF74D1DEA5668A4A5C38106B8C8141E6 /* UIScrollView+EditFocus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EditFocus.h"; sourceTree = "<group>"; };
+		EFC230793CFF54D2435EDB7CC06DCECE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F036CBA8BAED2FA5C83D31B80E6CBD71 /* Pods-ZYTextInputAvoidKeyboard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYTextInputAvoidKeyboard_Tests-Info.plist"; sourceTree = "<group>"; };
+		F0B5BA19B859026B9F25DA5AE22A5F0A /* ZYTextInputAvoidKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYTextInputAvoidKeyboard.modulemap; sourceTree = "<group>"; };
 		F89C511DA24B5A38D715ED86E98609E9 /* ZYTextInputAvoidKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYTextInputAvoidKeyboard.framework; path = ZYTextInputAvoidKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9086D098370C3218819FFFD8121103A /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		FA2F76BA6EC4CF5589C5D5175A6B5C0F /* Pods-ZYTextInputAvoidKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYTextInputAvoidKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -173,15 +177,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				96FE889CBFA55C4D7C6D77404BE7F6C5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B2C628470CC2F3EBCB9FCB170FDAA78 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F31AB4F2EBF7FC1D4AFCC8D90E78FAA /* Foundation.framework in Frameworks */,
-				7EFD4CF94A910A89300FC0A5978E0991 /* KVOController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +196,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B48A75F809BAD3E64348C1C42D227487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF3D486260A0B91E7484B7F3A8A1654 /* Foundation.framework in Frameworks */,
+				3010E382982ED5C8DB2710F0C1502AA7 /* KVOController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,18 +219,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B248ED3E977A6EF69CC23FB21C623F5 /* ZYTextInputAvoidKeyboard */ = {
-			isa = PBXGroup;
-			children = (
-				9D99F2816A61CCEC9862D6C044BF6CF8 /* Pod */,
-				0CC63B92255285FF50EC278FAE3C4118 /* Support Files */,
-				9D715C7337E44681204DB37368267B61 /* UIScrollView */,
-				5F2A03EF78E3A03933BBD06AF6448CB3 /* UITextViewBlock */,
-			);
-			name = ZYTextInputAvoidKeyboard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		0CA5C0260D20FE017C1440E77B2A981F /* KVOController */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,20 +231,6 @@
 			);
 			name = KVOController;
 			path = KVOController;
-			sourceTree = "<group>";
-		};
-		0CC63B92255285FF50EC278FAE3C4118 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				32B32C5EEAE4F0E8DF097CD27515391D /* ZYTextInputAvoidKeyboard.modulemap */,
-				9DF662CAF19FD18835B0CD5575B63A59 /* ZYTextInputAvoidKeyboard-dummy.m */,
-				75A1F5F8639C3B09C9AFA76E6FDA8178 /* ZYTextInputAvoidKeyboard-prefix.pch */,
-				8DC251B2B2A168E12E82C1605837C775 /* ZYTextInputAvoidKeyboard-umbrella.h */,
-				EC2B8B2DDF29801384D0A08595EF5B94 /* ZYTextInputAvoidKeyboard.debug.xcconfig */,
-				B8CB5745739B6C68E1CB867125428DD3 /* ZYTextInputAvoidKeyboard.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZYTextInputAvoidKeyboard";
 			sourceTree = "<group>";
 		};
 		0DAD3D4F7AC50F25F3E245F7EACE6CA9 /* Frameworks */ = {
@@ -288,6 +266,20 @@
 				F89C511DA24B5A38D715ED86E98609E9 /* ZYTextInputAvoidKeyboard.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		231081BCD7C09C858A7938C30967ED37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0B5BA19B859026B9F25DA5AE22A5F0A /* ZYTextInputAvoidKeyboard.modulemap */,
+				9642A0C8DFA1AE030B98DE122ACCC796 /* ZYTextInputAvoidKeyboard-dummy.m */,
+				E3685A57230D11571BB1B57E7FF64A5F /* ZYTextInputAvoidKeyboard-prefix.pch */,
+				CB3EE7ED4A7387ED62ED0002D7BF6DA5 /* ZYTextInputAvoidKeyboard-umbrella.h */,
+				D2BD391FA914F7D86BBF5377E39B79D5 /* ZYTextInputAvoidKeyboard.debug.xcconfig */,
+				56FCCB0015A816D8E3B8EF0C17D21C6D /* ZYTextInputAvoidKeyboard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZYTextInputAvoidKeyboard";
 			sourceTree = "<group>";
 		};
 		362BEC6D4C4610F3C6FD011413559377 /* Core */ = {
@@ -339,6 +331,16 @@
 			path = "Target Support Files/Pods-ZYTextInputAvoidKeyboard_Example";
 			sourceTree = "<group>";
 		};
+		44D5CDCDAF1E8429F27F6D70F0876F64 /* UITextViewBlock */ = {
+			isa = PBXGroup;
+			children = (
+				45FF3196086266C4AE1A83D1DFA8548B /* UITextView+Block.h */,
+				8317B7B338682290A79C67561B61D3C1 /* UITextView+Block.m */,
+			);
+			name = UITextViewBlock;
+			path = ZYTextInputAvoidKeyboard/Classes/UITextViewBlock;
+			sourceTree = "<group>";
+		};
 		5D94BC693D5BCB97BAF3B4D53A3E058C /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,14 +352,16 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		5F2A03EF78E3A03933BBD06AF6448CB3 /* UITextViewBlock */ = {
+		66CC27707ECB9417B817ECE45057A71C /* ZYTextInputAvoidKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				31A6D7565812611FC403D03C97B1B2A5 /* UITextView+Block.h */,
-				D8A02A6397D9DAD78A67EF6227B37EC9 /* UITextView+Block.m */,
+				D09CF4115660832709FCE895C00B8BB5 /* Pod */,
+				231081BCD7C09C858A7938C30967ED37 /* Support Files */,
+				7BDA7D8182534A9D0BCE108DBB4B3AA0 /* UIScrollView */,
+				44D5CDCDAF1E8429F27F6D70F0876F64 /* UITextViewBlock */,
 			);
-			name = UITextViewBlock;
-			path = ZYTextInputAvoidKeyboard/Classes/UITextViewBlock;
+			name = ZYTextInputAvoidKeyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6D3AC786520836F39A215876A739C8DF /* Targets Support Files */ = {
@@ -369,24 +373,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9D715C7337E44681204DB37368267B61 /* UIScrollView */ = {
+		7BDA7D8182534A9D0BCE108DBB4B3AA0 /* UIScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				303537696402670253279A3899C386E1 /* UIScrollView+EditFocus.h */,
-				2E804CC5827E612D84B7B77F462451D5 /* UIScrollView+EditFocus.m */,
+				EF74D1DEA5668A4A5C38106B8C8141E6 /* UIScrollView+EditFocus.h */,
+				E4FF335E553C6FAD7D6C36668E0E9D78 /* UIScrollView+EditFocus.m */,
+				D083587139C04B22A4AB17D207D6E6E3 /* ZYBaseTableView.h */,
+				9D3392EE3A586195AF5FD07D9DD4D099 /* ZYBaseTableView.m */,
 			);
 			name = UIScrollView;
 			path = ZYTextInputAvoidKeyboard/Classes/UIScrollView;
-			sourceTree = "<group>";
-		};
-		9D99F2816A61CCEC9862D6C044BF6CF8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				56AA5FF9377D6754C2F945928448C5EE /* LICENSE */,
-				7F899ACA7D3AEBB0E7E02FCDBD536663 /* README.md */,
-				E889167087A591FD5652B39236BFF153 /* ZYTextInputAvoidKeyboard.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		B9DD6CF2EC3B8100BCAF2ACC9135B2BE /* Pods-ZYTextInputAvoidKeyboard_Tests */ = {
@@ -418,6 +414,16 @@
 			);
 			sourceTree = "<group>";
 		};
+		D09CF4115660832709FCE895C00B8BB5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EFC230793CFF54D2435EDB7CC06DCECE /* LICENSE */,
+				36FD9405E3AEBB56C69E0C77356C6BF7 /* README.md */,
+				617B045A74BBD624287930A4E0DBCC24 /* ZYTextInputAvoidKeyboard.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		D3E34D90D18D4623D59F0C80C2C4ADDB /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,7 +444,7 @@
 		E2865B627C0B36553CAC0FDF7819FD4A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0B248ED3E977A6EF69CC23FB21C623F5 /* ZYTextInputAvoidKeyboard */,
+				66CC27707ECB9417B817ECE45057A71C /* ZYTextInputAvoidKeyboard */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -502,13 +508,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2BFB9ABDD4978E8F190F3BF274C2BC0 /* Headers */ = {
+		DEAAC1E86C7F4C909B8C46FFDC298C8D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD22A739D8449E7468F194208B0CBF5F /* UIScrollView+EditFocus.h in Headers */,
-				9CA50AACA67B5F6CFD568AD7CFBCFF73 /* UITextView+Block.h in Headers */,
-				B2017F6ED1B3F5FDFF67649BE0CB49EA /* ZYTextInputAvoidKeyboard-umbrella.h in Headers */,
+				EA7C49AD041F5FDF2279083EE3EE9110 /* UIScrollView+EditFocus.h in Headers */,
+				DCD868B05EC0B6DD603E1E22ECDCA374 /* UITextView+Block.h in Headers */,
+				52B2770AFABF557FCDC16E9A273C2768 /* ZYBaseTableView.h in Headers */,
+				E4F1FA0D60D3211535731BC1F04CC2ED /* ZYTextInputAvoidKeyboard-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,8 +552,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				EFC0BE2B7B9C17CD14A1CBE76CC5B6EC /* PBXTargetDependency */,
-				204C83FF0E53A737927806581D9F2136 /* PBXTargetDependency */,
+				F4DE60727728A5F4C9AB978CE9ECFA2C /* PBXTargetDependency */,
+				F9C19DB6D8FA1A934D2B177EFCBF8D90 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZYTextInputAvoidKeyboard_Tests";
 			productName = "Pods-ZYTextInputAvoidKeyboard_Tests";
@@ -583,8 +590,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				C08AF6E539699E32560DF048BE856B1C /* PBXTargetDependency */,
-				C7592CA43854D1B85657DA26D927ED71 /* PBXTargetDependency */,
+				276267B0FDDD30D87154481CEF16A47D /* PBXTargetDependency */,
+				5B487A8E6188493131339EC8D5D318D9 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZYTextInputAvoidKeyboard_Example";
 			productName = "Pods-ZYTextInputAvoidKeyboard_Example";
@@ -593,17 +600,17 @@
 		};
 		D78DCF0630D0FE58941ED13816904845 /* ZYTextInputAvoidKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 908324DD726D4F5D2AB3838DCF831442 /* Build configuration list for PBXNativeTarget "ZYTextInputAvoidKeyboard" */;
+			buildConfigurationList = 7900650C8A380A95054F1137C5898808 /* Build configuration list for PBXNativeTarget "ZYTextInputAvoidKeyboard" */;
 			buildPhases = (
-				F2BFB9ABDD4978E8F190F3BF274C2BC0 /* Headers */,
-				29E4AD9032419303A0538B34D6F41B05 /* Sources */,
-				9B2C628470CC2F3EBCB9FCB170FDAA78 /* Frameworks */,
-				5709CAD3242F03D66188BE7D7B0928BB /* Resources */,
+				DEAAC1E86C7F4C909B8C46FFDC298C8D /* Headers */,
+				C01A2CF5972BC85D8FB51AF874FF5044 /* Sources */,
+				B48A75F809BAD3E64348C1C42D227487 /* Frameworks */,
+				31B09B2573A9EBD020F7030C02246279 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BDAC6EB3F66C718EB59BF847AC7BBDFE /* PBXTargetDependency */,
+				C3670BC30D60C433F6EFC86488D30C3A /* PBXTargetDependency */,
 			);
 			name = ZYTextInputAvoidKeyboard;
 			productName = ZYTextInputAvoidKeyboard;
@@ -642,7 +649,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5709CAD3242F03D66188BE7D7B0928BB /* Resources */ = {
+		31B09B2573A9EBD020F7030C02246279 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -690,16 +697,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29E4AD9032419303A0538B34D6F41B05 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9141FA1041F2CE719CA7A45CEADCC5B4 /* UIScrollView+EditFocus.m in Sources */,
-				F676A745198A3ECCA7FD728F1A12E083 /* UITextView+Block.m in Sources */,
-				399831F6CF70C3CFEC9BFA8FF35AE39C /* ZYTextInputAvoidKeyboard-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3DF6DCD1E90D0B31D5A099AAF9E5B016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -732,38 +729,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C01A2CF5972BC85D8FB51AF874FF5044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CAF664765B6B0C75348F85232C2BAB /* UIScrollView+EditFocus.m in Sources */,
+				0DCCCF39D037E3B2CC15C0F4042B4C1F /* UITextView+Block.m in Sources */,
+				7D20BB139E22216BAD6BB2C50FCC2807 /* ZYBaseTableView.m in Sources */,
+				A0DF9EC08EFBBDE13F75D803D894B9FF /* ZYTextInputAvoidKeyboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		204C83FF0E53A737927806581D9F2136 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ZYTextInputAvoidKeyboard_Example";
-			target = 9BEF73421FFE1B98E8F4F3A117261582 /* Pods-ZYTextInputAvoidKeyboard_Example */;
-			targetProxy = 59D7C0F952F9C7E7AFAFBEFB8E5BDF5D /* PBXContainerItemProxy */;
-		};
-		BDAC6EB3F66C718EB59BF847AC7BBDFE /* PBXTargetDependency */ = {
+		276267B0FDDD30D87154481CEF16A47D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KVOController;
 			target = 2568F753F09C4DFFD8770DCC78EDAEAE /* KVOController */;
-			targetProxy = B4E260BF6869E56FE72C33B09C4327D6 /* PBXContainerItemProxy */;
+			targetProxy = 9E1EA950C1861E46E7E808680767606B /* PBXContainerItemProxy */;
 		};
-		C08AF6E539699E32560DF048BE856B1C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KVOController;
-			target = 2568F753F09C4DFFD8770DCC78EDAEAE /* KVOController */;
-			targetProxy = 07E8092F0CB39A9BD72F4468009F9F16 /* PBXContainerItemProxy */;
-		};
-		C7592CA43854D1B85657DA26D927ED71 /* PBXTargetDependency */ = {
+		5B487A8E6188493131339EC8D5D318D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZYTextInputAvoidKeyboard;
 			target = D78DCF0630D0FE58941ED13816904845 /* ZYTextInputAvoidKeyboard */;
-			targetProxy = 80A77526170F6EAB4F063214AD65D5A1 /* PBXContainerItemProxy */;
+			targetProxy = D95E97464E3C0DA6D777DA47F68C84C7 /* PBXContainerItemProxy */;
 		};
-		EFC0BE2B7B9C17CD14A1CBE76CC5B6EC /* PBXTargetDependency */ = {
+		C3670BC30D60C433F6EFC86488D30C3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVOController;
+			target = 2568F753F09C4DFFD8770DCC78EDAEAE /* KVOController */;
+			targetProxy = 42E215C26FEA6B00DCD021936E83DF50 /* PBXContainerItemProxy */;
+		};
+		F4DE60727728A5F4C9AB978CE9ECFA2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 2A157EECBFCDBEBFB7EC594762BDF418 /* PBXContainerItemProxy */;
+			targetProxy = 1BFF03CA70FBF150198BB478B98FE46C /* PBXContainerItemProxy */;
+		};
+		F9C19DB6D8FA1A934D2B177EFCBF8D90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZYTextInputAvoidKeyboard_Example";
+			target = 9BEF73421FFE1B98E8F4F3A117261582 /* Pods-ZYTextInputAvoidKeyboard_Example */;
+			targetProxy = DC99B4D22DB4FA034A486B9C77673C54 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -894,9 +902,9 @@
 			};
 			name = Debug;
 		};
-		4AD1B71BF171C672BD8A06EFDCFA6A2B /* Debug */ = {
+		6AE4BB0AA7A6680431ADF2F926441DB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC2B8B2DDF29801384D0A08595EF5B94 /* ZYTextInputAvoidKeyboard.debug.xcconfig */;
+			baseConfigurationReference = D2BD391FA914F7D86BBF5377E39B79D5 /* ZYTextInputAvoidKeyboard.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -922,36 +930,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		5B45AED7A9A81A491A204CEFFCB65A25 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8CB5745739B6C68E1CB867125428DD3 /* ZYTextInputAvoidKeyboard.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZYTextInputAvoidKeyboard/ZYTextInputAvoidKeyboard-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZYTextInputAvoidKeyboard/ZYTextInputAvoidKeyboard.modulemap";
-				PRODUCT_MODULE_NAME = ZYTextInputAvoidKeyboard;
-				PRODUCT_NAME = ZYTextInputAvoidKeyboard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		79B57B9D59045283E091F89B9A047BE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1203,6 +1181,36 @@
 			};
 			name = Debug;
 		};
+		F5577152A1BEEA5316E4EEFCEF6B4E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FCCB0015A816D8E3B8EF0C17D21C6D /* ZYTextInputAvoidKeyboard.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYTextInputAvoidKeyboard/ZYTextInputAvoidKeyboard-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYTextInputAvoidKeyboard/ZYTextInputAvoidKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = ZYTextInputAvoidKeyboard;
+				PRODUCT_NAME = ZYTextInputAvoidKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1224,11 +1232,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		908324DD726D4F5D2AB3838DCF831442 /* Build configuration list for PBXNativeTarget "ZYTextInputAvoidKeyboard" */ = {
+		7900650C8A380A95054F1137C5898808 /* Build configuration list for PBXNativeTarget "ZYTextInputAvoidKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AD1B71BF171C672BD8A06EFDCFA6A2B /* Debug */,
-				5B45AED7A9A81A491A204CEFFCB65A25 /* Release */,
+				6AE4BB0AA7A6680431ADF2F926441DB6 /* Debug */,
+				F5577152A1BEEA5316E4EEFCEF6B4E56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

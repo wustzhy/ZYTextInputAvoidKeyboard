@@ -11,6 +11,7 @@
 #endif
 
 #import "UIScrollView+EditFocus.h"
+#import "ZYBaseTableView.h"
 #import "UITextView+Block.h"
 
 FOUNDATION_EXPORT double ZYTextInputAvoidKeyboardVersionNumber;
