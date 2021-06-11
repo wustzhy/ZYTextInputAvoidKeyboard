@@ -1,0 +1,6 @@
+framework module ZYTextInputAvoidKeyboard {
+  umbrella header "ZYTextInputAvoidKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

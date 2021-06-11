@@ -1,0 +1,6 @@
+framework module Pods_ZYTextInputAvoidKeyboard_Tests {
+  umbrella header "Pods-ZYTextInputAvoidKeyboard_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
