@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZYTextInputAvoidKeyboard'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZYTextInputAvoidKeyboard.'
+  s.summary          = 'Adjust textView`s position well to avoid input cursor being covered.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,11 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'ZYTextInputAvoidKeyboard is designed for textView or containerView with textView on ScrollView. In order to adjust textView`s position well to avoid input cursor being covered.'
 
-  s.homepage         = 'https://github.com/赵洋/ZYTextInputAvoidKeyboard'
+  s.homepage         = 'https://github.com/wustzhy/ZYTextInputAvoidKeyboard'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '赵洋' => 'zhaoyang@deepleaper.com' }
