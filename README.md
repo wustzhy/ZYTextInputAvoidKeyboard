@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+none
+
 ## Installation
 
 ZYTextInputAvoidKeyboard is available through [CocoaPods](https://cocoapods.org). To install
@@ -19,6 +21,21 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'ZYTextInputAvoidKeyboard'
 ```
+
+## Usage
+
+```
+// 是否光标所在视图与键盘联动, YES是
+self.scrollView.isAutoAdjust = YES;
+
+// 是否距离keyboard顶部bottomMargin位置 去定位输入框
+self.scrollView.isCursorAlign = YES;
+
+// 距离keyboard顶部bottomMargin位置 定位 textView
+self.scrollView.inputViewBottomMargin = 10;
+```
+无论单个or多个textView在tableView/scrollView，都适用。
+
 
 ## Author
 
